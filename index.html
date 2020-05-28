@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" , type="text/css" href="src/styles.css" />
+    <title>Mad Libs</title>
+  </head>
+
+  <body>
+    <h1>Mad Libs</h1>
+
+    <p>Debugging Programs</p>
+
+    <form id="fill">
+      <div>
+          <label for="pn">Plural Noun: &nbsp</label>
+          <input type="text" id="pn" />
+        </div>
+
+        <div>
+          <label for="n1">Noun: &nbsp</label>
+          <input type="text" id="n1" />
+        </div>
+
+        <div>
+          <label for="n2">Noun: &nbsp</label>
+          <input type="text" id="n2" />
+        </div>
+
+        <div>
+          <label for="con">Conjunction: &nbsp</label>
+          <input type="text" id="con" />
+        </div>
+
+        <div>
+          <label for="v">Verb: &nbsp</label>
+          <input type="text" id="v" />
+        </div>
+
+        <div>
+          <input type="button" id="subButton" value="Submit">
+        </div>
+      </form>
+
+      <div class="wrapper" id="outcome">
+        <div>
+          <textarea id="textbox" readonly></textarea>
+      <div>
+      <input class="but" type="reset" id="resetButton" forms="fill" value="Play Again" />
+      </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
