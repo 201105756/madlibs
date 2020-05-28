@@ -1,11 +1,11 @@
 //Brings user to the next screen.
-var pn, n1, n2, con, v;
+var pn, n1, n2, propN, v;
 function Submit() {
   //Logs the text inputted by the user.
   pn = document.getElementById("pn").value;
   n1 = document.getElementById("n1").value;
   n2 = document.getElementById("n2").value;
-  con = document.getElementById("con").value;
+  propN = document.getElementById("propN").value;
   v = document.getElementById("v").value;
 
   //Shows the enitre text with the variables.
@@ -20,7 +20,7 @@ function Submit() {
     " to find whatever " +
     n2 +
     " is causing the error. This " +
-    con +
+    propN +
     " took a lot of time to debug. " +
     v +
     " the code is tedious and sometimes really annoying. This HTML project took all of my sanity.";
